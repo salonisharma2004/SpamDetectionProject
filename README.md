@@ -1,23 +1,24 @@
-# Email Spam Detection using Machine Learning
+# Spam Detection System 🔍
 
-## Project Overview
-This project detects whether an email or SMS message is spam or not using Machine Learning techniques.
+Classifies SMS/email messages as spam or legitimate using Machine Learning and NLP techniques.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
+## Results
+- **Accuracy: 85%**
+- Dataset: Kaggle SMS Spam Collection (5,574 messages)
 
-## Dataset
-Spam SMS dataset from Kaggle.
+## Tech Stack
+Python | scikit-learn | NLP | pandas | Matplotlib
+
+## How it works
+1. Raw text messages are cleaned and preprocessed
+2. TF-IDF vectorization converts text to numerical features
+3. Trained classifier predicts spam vs ham
+4. Confusion matrix shows model performance
 
 ## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+pip install -r requirements.txt
+python spam_detection.py
 
-2. Run:
-   python spam_detection.py
-
-## Output
-The model predicts spam or ham messages with accuracy and shows confusion matrix.
+## Sample Output
+Input: "Congratulations! You've won a free iPhone. Click here to claim."
+Output: SPAM ✓

@@ -20,5 +20,5 @@ pip install -r requirements.txt
 python spam_detection.py
 
 ## Sample Output
-Input: "Congratulations! You've won a free iPhone. Click here to claim."
-Output: SPAM ✓
+Input: "Congratulations! You've won a free travel voucher to Paris. Click here to claim."
+Output: Is SPAM 
